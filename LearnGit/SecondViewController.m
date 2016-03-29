@@ -29,7 +29,7 @@
 
 - (void)__test_branch1_method
 {
-    NSLog(@"Tested log ammend 1 branch test method commit");
+    NSLog(@"ON Branch_1 *** Tested log ammend 1 branch test method commit");
 }
 
 @end
