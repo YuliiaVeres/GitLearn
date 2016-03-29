@@ -23,13 +23,18 @@
 {
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     NSLog(@"Testing amend pushed commit :-D ");
-
+    
     NSLog(@"Actual test");
 }
 
 - (void)__test_afterBranch_1_creation
 {
     NSLog(@" ON Master *** after branch_1 implementation");
+}
+
+- (void)__test_branch1_method
+{
+    NSLog(@"ON Branch_1 *** Tested log ammend 1 branch test method commit");
 }
 
 @end
