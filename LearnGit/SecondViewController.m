@@ -23,6 +23,7 @@
 {
     [self.navigationController setNavigationBarHidden:NO animated:YES];
     NSLog(@"Testing amend pushed commit :-D ");
+
     NSLog(@"Actual test");
 }
 
