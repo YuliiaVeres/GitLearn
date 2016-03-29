@@ -14,6 +14,7 @@
 		32F7BE9F1CA9420300DA7B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F7BE9E1CA9420300DA7B59 /* Assets.xcassets */; };
 		32F7BEA21CA9420300DA7B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F7BEA01CA9420300DA7B59 /* LaunchScreen.storyboard */; };
 		32F7BEAD1CA9420300DA7B59 /* LearnGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F7BEAC1CA9420300DA7B59 /* LearnGitTests.m */; };
+		32F7BEBC1CA9AEEE00DA7B59 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F7BEBB1CA9AEEE00DA7B59 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		32F7BEA81CA9420300DA7B59 /* LearnGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F7BEAC1CA9420300DA7B59 /* LearnGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitTests.m; sourceTree = "<group>"; };
 		32F7BEAE1CA9420300DA7B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F7BEBA1CA9AEEE00DA7B59 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		32F7BEBB1CA9AEEE00DA7B59 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				32F7BE951CA9420300DA7B59 /* AppDelegate.h */,
 				32F7BE961CA9420300DA7B59 /* AppDelegate.m */,
+				32F7BEBA1CA9AEEE00DA7B59 /* SecondViewController.h */,
+				32F7BEBB1CA9AEEE00DA7B59 /* SecondViewController.m */,
 				32F7BE981CA9420300DA7B59 /* ViewController.h */,
 				32F7BE991CA9420300DA7B59 /* ViewController.m */,
 				32F7BE9B1CA9420300DA7B59 /* Main.storyboard */,
@@ -211,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F7BEBC1CA9AEEE00DA7B59 /* SecondViewController.m in Sources */,
 				32F7BE9A1CA9420300DA7B59 /* ViewController.m in Sources */,
 				32F7BE971CA9420300DA7B59 /* AppDelegate.m in Sources */,
 				32F7BE941CA9420300DA7B59 /* main.m in Sources */,
@@ -400,6 +406,7 @@
 				32F7BEB31CA9420300DA7B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32F7BEB41CA9420300DA7B59 /* Build configuration list for PBXNativeTarget "LearnGitTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +415,7 @@
 				32F7BEB61CA9420300DA7B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
