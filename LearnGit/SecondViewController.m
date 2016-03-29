@@ -17,7 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+}
+
+- (void)__initialSetup
+{
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 
 @end
