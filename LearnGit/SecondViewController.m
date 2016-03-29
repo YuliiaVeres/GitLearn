@@ -22,6 +22,7 @@
 - (void)__initialSetup
 {
     [self.navigationController setNavigationBarHidden:NO animated:YES];
+    NSLog(@"Testing amend pushed commit :-D ");
 }
 
 @end
