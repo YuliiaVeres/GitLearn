@@ -27,4 +27,9 @@
     NSLog(@"Actual test");
 }
 
+- (void)__test_branch1_method
+{
+
+}
+
 @end
