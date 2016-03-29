@@ -27,4 +27,9 @@
     NSLog(@"Actual test");
 }
 
+- (void)__test_afterBranch_1_creation
+{
+    NSLog(@"after branch_1 implementation");
+}
+
 @end
