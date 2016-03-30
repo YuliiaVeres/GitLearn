@@ -37,4 +37,11 @@
     NSLog(@"ON Branch_1 *** Tested log ammend 1 branch test method commit");
 }
 
+#pragma mark - Editing second view controller from Second Client
+
+- (void)secondClientMethod
+{
+
+}
+
 @end
