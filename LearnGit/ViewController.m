@@ -59,4 +59,9 @@
     NSLog(@"Second modif before rebase");
 }
 
+- (void)onClient_1_from_2_modif_1
+{
+    NSLog(@"First modif on secondary branch");
+}
+
 @end
