@@ -64,4 +64,11 @@
     NSLog(@"First modif on secondary branch");
 }
 
+#pragma mark - On 3 mediator branch
+
+- (void)doMediatorWork
+{
+
+}
+
 @end
