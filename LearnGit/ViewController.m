@@ -73,6 +73,18 @@
 
 - (void)doSomeOtherMediatorWork
 {
+    
+}
+
+#pragma mark - Doing mediator's child work
+
+- (void)doMediatorCHILDWork
+{
+
+}
+
+- (void)doOtherCHILDWork
+{
 
 }
 
