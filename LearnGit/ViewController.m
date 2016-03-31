@@ -71,4 +71,9 @@
 
 }
 
+- (void)doSomeOtherMediatorWork
+{
+
+}
+
 @end
