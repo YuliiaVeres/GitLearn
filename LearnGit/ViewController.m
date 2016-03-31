@@ -49,29 +49,9 @@
     return resultArray.copy;
 }
 
-- (void)onMaster_1
-{
-    NSLog(@"Lets log before rebase");
-}
+#pragma mark - Parent job
 
-- (void)onMaster_2
-{
-    NSLog(@"Second modif before rebase");
-}
-
-- (void)onClient_1_from_2_modif_1
-{
-    NSLog(@"First modif on secondary branch");
-}
-
-#pragma mark - Doing madiator's child work
-
-- (void)doMediatorCHILDWork
-{
-
-}
-
-- (void)doOtherCHILDWork
+- (void)__parentJob_1
 {
 
 }
