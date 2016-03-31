@@ -19,4 +19,9 @@
     [super viewDidLoad];
 }
 
+- (void)onMaster_1
+{
+
+}
+
 @end
