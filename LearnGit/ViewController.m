@@ -24,4 +24,9 @@
     NSLog(@"Lets log before rebase");
 }
 
+- (void)onMaster_2
+{
+    NSLog(@"Second modif before rebase");
+}
+
 @end
