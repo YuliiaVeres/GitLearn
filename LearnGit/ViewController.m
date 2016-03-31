@@ -71,4 +71,9 @@
 
 }
 
+- (void)doOtherCHILDWork
+{
+
+}
+
 @end
