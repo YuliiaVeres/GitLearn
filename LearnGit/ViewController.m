@@ -21,7 +21,7 @@
 
 - (void)onMaster_1
 {
-
+    NSLog(@"Lets log before rebase");
 }
 
 @end
