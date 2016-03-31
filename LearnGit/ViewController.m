@@ -64,4 +64,11 @@
     NSLog(@"First modif on secondary branch");
 }
 
+#pragma mark - Doing madiator's child work
+
+- (void)doMediatorCHILDWork
+{
+
+}
+
 @end
