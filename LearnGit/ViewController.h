@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+//AND HERE I AM IN THE SECOND CHANGE
+<<<<<<< Updated upstream
+=======
+
+// Change to ba stashed for a separate branch
+>>>>>>> Stashed changes
 
 @end
 
